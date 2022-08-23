@@ -1,0 +1,151 @@
+:root{
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-bg-dblue: hsl(217, 54%, 11%);
+    --card-bg-dblue: hsl(216, 50%, 16%);
+    --line-dblue: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(Outfit-VariableFont_wght.ttf);
+}
+
+body{
+    max-width: 375px;
+    background-color: var(--main-bg-dblue);
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Outfit";
+    font-size: 15px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 27px;
+    color: var(--white);
+}
+
+h2:hover{
+    color: var(--cyan);
+}
+
+span{
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--cyan);
+    margin-left: 7px;
+}
+
+p{
+    color: var(--soft-blue);
+}
+
+.extra{
+    width: fit-content;
+    padding: 15px;
+    margin: 30px 7px;
+    border-radius: 25px;
+    box-shadow: 10px 30px 5px rgba(26, 22, 51, 0.37), -20px 30px 5px rgba(26, 22, 51, 0.37), 20px 30px 5px rgba(26, 22, 51, 0.37);
+}
+
+.container{
+    width: 300px;
+    padding: 30px;
+    background-color: var(--card-bg-dblue);
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px var(--main-bg-dblue), -10px 7px 10px var(--main-bg-dblue), 10px 7px 10px var(--main-bg-dblue);
+}
+
+.preview{
+    position: relative;
+}
+
+.eth{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#empty{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(178, 100%, 50%, 50%) ;
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#empty:hover{
+    opacity: 1;
+}
+
+.view{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    transform: translate(-50%, -50%, 50%);
+}
+
+.days{
+    font-size: 15px;
+    color: var(--soft-blue);
+}
+
+.jw{
+    color: var(--white);
+    margin: 0;
+}
+
+.jw:hover{
+    color: var(--cyan);
+}
+
+.pnt{
+    display: flex;
+    flex: 0 0 50%;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    border-bottom: 2px solid var(--line-dblue);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.creator img{
+    width: 35px;
+    height: 35px;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 500px) {
+
+    .extra{
+        box-shadow: none;
+    }
+    
+}
