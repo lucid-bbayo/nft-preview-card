@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://www.github.com/lucid-bbayo/nft-preview-card)
-- Live Site URL: [Netlify](https://lucidnftcard.netlify.com)
+- Live Site URL: [Netlify](https://lucidnftcard.netlify.app)
 
 ## My process
 
