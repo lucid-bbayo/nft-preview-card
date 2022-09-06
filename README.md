@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./"Screenshot 2022-08-23 at 13-56-34 Frontend Mentor NFT preview card component.png")
-![](./"Screenshot 2022-08-23 at 13-57-09 Frontend Mentor NFT preview card component.png")
+![Screenshot 2022-08-23 at 13-57-09 Frontend Mentor NFT preview card component](https://user-images.githubusercontent.com/106781345/188588894-be0aa7a6-b5d2-4f9e-98cc-ec6fd55b9467.png)
+![Screenshot 2022-08-23 at 13-56-34 Frontend Mentor NFT preview card component](https://user-images.githubusercontent.com/106781345/188589152-6cea6e8b-f4dc-4f8e-b7eb-98144d1e8299.png)
 
 ### Links
 
